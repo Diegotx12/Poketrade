@@ -10,6 +10,9 @@ import { PokemonlistComponent } from './pokemonlist/pokemonlist.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    PokemonlistComponent
   ]
 })
 export class PokemonModule { }
