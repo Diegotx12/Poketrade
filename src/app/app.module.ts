@@ -8,9 +8,15 @@ import { AppComponent } from './app.component';
 //Modulos
 import { PokemonModule } from "./pokemon/pokemon.module";
 
+//Components
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
