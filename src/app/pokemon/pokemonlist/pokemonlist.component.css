@@ -1,0 +1,23 @@
+/* Button */
+
+.btn-bg {
+    background-color: #ffc03d;
+}
+
+thead {
+    background-color: #d61010;
+}
+
+.btn-text-color {
+    color: #432344;
+}
+
+.table-border {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.table-hover tbody tr:hover td {
+    background:#e7eefb;
+}
